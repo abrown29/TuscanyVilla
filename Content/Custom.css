@@ -1,2 +1,38 @@
 ﻿body {
 }
+.col-md-6 {
+    border:none;
+    width:auto;
+    height:auto;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+}
+.col-sm-6{
+    border:none;
+    width:auto;
+    height:auto;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+}
+.col-md-3{
+    border:none;
+    width:auto;
+    height:auto;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+}
+.col-sm-4{
+    border:none;
+    width:auto;
+    height:auto;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+}
