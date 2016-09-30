@@ -2,44 +2,61 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--Header and navigation-->
-    <header>
-        <nav>
-            <ul>
-                <li>Windows on Tuscany</li>
-                <li>About</li>
-                <li>Cities</li>
-                <li>Contacts</li>
-                <li>Properties</li>
-            </ul>
-        </nav>
-    </header>
+    <!--Navbar is header for page-->
+    <nav class="navbar navbar-default navbar-static-top" id="navvy">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Windows on Tuscany</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#city">Cities</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="property">Properties</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
     <!--Main content with at least 4 rows and 4 columns each-->
     <div class="container">
         <div class="row1">
-            <div class="column"></div>
-            <div class="column"></div>
+            <div class="column">Feel like home away from home</div>
+            <div class="column">Find your Tuscany villa</div>
         </div>
         <div class="row2">
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
+            <div class="column">Some accomadation ideas for a perfect stay</div>
+            <div class="column">Weddings</div>
+            <div class="column">Friends</div>
+            <div class="column">Family</div>
         </div>
         <div class="row3">
             <div class="column"></div>
+            <div class="column">Why book a villa</div>
             <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
+            <div class="column">Why us</div>
         </div>
         <div class="row4">
+            <div class="column">Speak with our experts</div>
             <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
+            <div class="column">Our clients trust us</div>
+            <div class="column">Seen on</div>
         </div>
     </div>
     <!--Footer with copyright and social media-->
