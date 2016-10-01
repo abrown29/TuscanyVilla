@@ -1,38 +1,28 @@
 ﻿body {
+    font-family: 'Muli', sans-serif;
+    background-color:#D1D3D2;
 }
-.col-md-6 {
+#first{
     border:none;
-    width:auto;
-    height:auto;
-    margin-left:0;
-    margin-right:0;
-    padding-left:0;
-    padding-right:0;
+    width:985px;
+    height:480px;
+    margin:1px;
+    padding:1px;
+    display:flex;
 }
-.col-sm-6{
+#second{
     border:none;
-    width:auto;
-    height:auto;
-    margin-left:0;
-    margin-right:0;
-    padding-left:0;
-    padding-right:0;
+    width:360px;
+    height:480px;
+    margin:1px;
+    padding:1px;
+    display:flex;
 }
-.col-md-3{
-    border:none;
-    width:auto;
-    height:auto;
-    margin-left:0;
-    margin-right:0;
-    padding-left:0;
-    padding-right:0;
+.navbar{
+    background-color:#52AEA0;
+    text-align:center;
 }
-.col-sm-4{
-    border:none;
-    width:auto;
-    height:auto;
-    margin-left:0;
-    margin-right:0;
-    padding-left:0;
-    padding-right:0;
+
+a{
+    color:black;
 }
