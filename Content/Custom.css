@@ -26,3 +26,24 @@
 a{
     color:black;
 }
+p{
+    text-align:center;
+}
+button{
+    color:#52AEA0;
+    background-color:white;
+    border:9px solid #52AEA0;
+    text-align:center;
+}
+#third{
+    border:none;
+    background-color:white;
+    margin:1px;
+    padding:1px;
+}
+img{
+    position:relative;
+}
+h2,h4{
+    position:absolute;
+}
